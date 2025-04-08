@@ -28,3 +28,13 @@ A lightweight sentiment analysis API powered by **LangChain**, **Gemini (Google 
 git clone https://github.com/YOUR_USERNAME/llm-feedback-analyzer.git
 cd llm-feedback-analyzer
 pip install -r requirements.txt
+
+Create a `.env` file in the root directory:
+
+# .env
+
+GEMINI_API_KEY=your_gemini_api_key
+LANGCHAIN_API_KEY=your_langchain_api_key
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=SentimentSage
+
